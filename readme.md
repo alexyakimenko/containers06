@@ -26,11 +26,10 @@
 git submodule add https://github.com/alexyakimenko/php_assessment_1.git mounts/site/
 ```
 
-Создаю файл `.gitignore` в корне проекта и добавляю в него строки:
+Затем перехожу в папку `mounts/site/` и выполняю команду
 
 ```sh
-# Ignore files and directories
-mounts/site/*
+composer install
 ```
 
 Создаю в директории `containers05` `файл nginx/default.conf` со следующим содержимым
