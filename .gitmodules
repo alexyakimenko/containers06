@@ -1,0 +1,3 @@
+[submodule "mounts/site"]
+	path = mounts/site
+	url = https://github.com/alexyakimenko/php_assessment_1.git
